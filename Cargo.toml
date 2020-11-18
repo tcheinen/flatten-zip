@@ -1,0 +1,13 @@
+[package]
+name = "flatten-zip"
+version = "0.1.0"
+authors = ["Teddy Heinen <teddy@heinen.dev>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+zip = "0.5.8"
+structopt = "0.3.20"
+log = "0.4.0"
+pretty_env_logger = "0.4"
